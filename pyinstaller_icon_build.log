@@ -1,0 +1,67 @@
+185 INFO: PyInstaller: 6.16.0, contrib hooks: 2025.8
+185 INFO: Python: 3.13.5
+208 INFO: Platform: Windows-11-10.0.26100-SP0
+208 INFO: Python environment: C:\Users\mazhenyu\AppData\Local\Programs\Python\Python313
+208 INFO: wrote C:\Users\mazhenyu\CodeHub\hex2asc\Hex2Asc.spec
+215 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\mazhenyu\\CodeHub\\hex2asc',
+ 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip',
+ 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\DLLs',
+ 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib',
+ 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313',
+ 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages',
+ 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32',
+ 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Pythonwin',
+ 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\setuptools\\_vendor',
+ 'C:\\Users\\mazhenyu\\CodeHub\\hex2asc']
+544 INFO: checking Analysis
+544 INFO: Building Analysis because Analysis-00.toc is non existent
+544 INFO: Looking for Python shared library...
+544 INFO: Using Python shared library: C:\Users\mazhenyu\AppData\Local\Programs\Python\Python313\python313.dll
+544 INFO: Running Analysis Analysis-00.toc
+544 INFO: Target bytecode optimization level: 0
+544 INFO: Initializing module dependency graph...
+544 INFO: Initializing module graph hook caches...
+601 INFO: Analyzing modules for base_library.zip ...
+1287 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+1845 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+3119 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+4510 INFO: Caching module dependency graph...
+4540 INFO: Analyzing C:\Users\mazhenyu\CodeHub\hex2asc\app.py
+4550 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+4552 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+4786 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+4818 INFO: Processing module hooks (post-graph stage)...
+4820 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+4827 INFO: Performing binary vs. data reclassification (927 entries)
+4985 INFO: Looking for ctypes DLLs
+4990 INFO: Analyzing run-time hooks ...
+4990 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+4993 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\mazhenyu\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+5017 INFO: Creating base_library.zip...
+5030 INFO: Looking for dynamic libraries
+5122 INFO: Extra DLL search directories (AddDllDirectory): []
+5122 INFO: Extra DLL search directories (PATH): []
+5368 INFO: Warnings written to C:\Users\mazhenyu\CodeHub\hex2asc\build\Hex2Asc\warn-Hex2Asc.txt
+5379 INFO: Graph cross-reference written to C:\Users\mazhenyu\CodeHub\hex2asc\build\Hex2Asc\xref-Hex2Asc.html
+5411 INFO: checking PYZ
+5411 INFO: Building PYZ because PYZ-00.toc is non existent
+5411 INFO: Building PYZ (ZlibArchive) C:\Users\mazhenyu\CodeHub\hex2asc\build\Hex2Asc\PYZ-00.pyz
+5527 INFO: Building PYZ (ZlibArchive) C:\Users\mazhenyu\CodeHub\hex2asc\build\Hex2Asc\PYZ-00.pyz completed successfully.
+5541 INFO: checking PKG
+5541 INFO: Building PKG because PKG-00.toc is non existent
+5541 INFO: Building PKG (CArchive) Hex2Asc.pkg
+7723 INFO: Building PKG (CArchive) Hex2Asc.pkg completed successfully.
+7734 INFO: Bootloader C:\Users\mazhenyu\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+7734 INFO: checking EXE
+7735 INFO: Building EXE because EXE-00.toc is non existent
+7735 INFO: Building EXE from EXE-00.toc
+7735 INFO: Copying bootloader EXE to C:\Users\mazhenyu\CodeHub\hex2asc\dist\Hex2Asc.exe
+7739 INFO: Copying icon to EXE
+7899 INFO: Copying 0 resources to EXE
+7899 INFO: Embedding manifest in EXE
+7901 INFO: Appending PKG archive to EXE
+7908 INFO: Fixing EXE headers
+7969 INFO: Building EXE from EXE-00.toc completed successfully.
+7981 INFO: Build complete! The results are available in: C:\Users\mazhenyu\CodeHub\hex2asc\dist

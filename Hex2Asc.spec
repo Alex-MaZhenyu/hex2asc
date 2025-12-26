@@ -35,4 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon=['C:\\Users\\mazhenyu\\CodeHub\\hex2asc\\icon.ico'],
 )

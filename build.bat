@@ -20,7 +20,15 @@ if exist dist rmdir /s /q dist
 if exist build rmdir /s /q build
 if exist Hex2Asc.spec del /q Hex2Asc.spec
 
-python -m PyInstaller --onefile --noconsole --name Hex2Asc app.py
+set "ICON_FILE=%~dp0icon.ico"
+if not exist "%ICON_FILE%" (
+  echo icon.ico not found: %ICON_FILE%
+  exit /b 1
+)
+
+echo Using icon: %ICON_FILE%
+
+python -m PyInstaller --clean --noconfirm --onefile --noconsole --name Hex2Asc --icon "%ICON_FILE%" app.py
 
 if exist dist\Hex2Asc.exe (
   echo.
